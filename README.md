@@ -1,5 +1,5 @@
 # connectMsSqlServer
-Example Jar that connects to a Microsoft SQL Server and Outputs the Database Names.
+Example Jar that connects to a Microsoft SQL Server and Outputs the User Tables.
 
 ## Purpose
 Demonstrate code that can be used to connect to a Microsoft SQL Server.

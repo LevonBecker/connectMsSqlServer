@@ -34,3 +34,24 @@ public class connectMsSqlServer
                 "<password>");
     }
 }
+
+/**
+ This is the list of all possible values for this column (xtype):
+     C = CHECK constraint
+     D = Default or DEFAULT constraint
+     F = FOREIGN KEY constraint
+     L = Log
+     P = Stored procedure
+     PK = PRIMARY KEY constraint (type is K)
+     RF = Replication filter stored procedure
+     S = System table
+     TR = Trigger
+     U = User table
+     UQ = UNIQUE constraint (type is K)
+     V = View
+     X = Extended stored procedure
+
+ For example, you can find all the user tables in a database by using this query:
+
+ select * from sysobjects where xtype='U'
+ */
